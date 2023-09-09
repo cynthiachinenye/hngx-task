@@ -2,7 +2,7 @@
 let dayName = ['Sunday','Moday', 'Tuestday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 let currentDay = new Date();
 let today = currentDay.getDay();
-document.querySelector('[data-testid="currentDayOfTheWeek"]').innerHTML = 'Today is ' + dayName[today];
+document.querySelector('[data-testid="currentDayOfTheWeek"]').innerHTML = 'Today: ' + dayName[today];
 })();
 
 (function loadTime(){
