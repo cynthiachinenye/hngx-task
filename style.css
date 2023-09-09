@@ -7,12 +7,16 @@
     width:900px;
     height:500px;
     border:none;
+    border-radius:15px;
     box-shadow: 0px 10px 26px -3px rgba(0,0,0,0.5);
     display:flex;
     justify-content: space-between;
     font-family:sans-serif;
     margin:50px auto;
     background-color: #bab6b6;
+
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
  
 }
 .content{
@@ -24,10 +28,11 @@
 }
 .content .career{
     padding-top:60px;
-    color:rgb(107, 73, 9);
+    color:rgb(77, 77, 211);
 }
 .content .name{
     padding-top:30px;
+    padding-bottom:20px;
     font-size:50px;
 }
  img{
@@ -36,21 +41,36 @@
     background-image: no-repeat;
     background-position: center;
     background-size: cover;
-
+    border-radius:10%;
+    border-top-left-radius:0;
+    border-bottom-left-radius:0;
+    
 }
-.btn{
-    margin-top:20px;
+.paragraph{
+    padding:10px;
+    
+}
+.no-style{
+    color:rgb(233, 232, 236);
+    text-decoration: none;
+    padding: 2px;
+    width:20px;
     height:40px;
-    width:80px;
-    border:none;
-    font-size:bold;
-    background-color:#fff;
-    font-size:15px;
+    background:rgb(77, 77, 211);;
+}
 
+.no-style:hover{
+    color:rgb(254, 253, 252);
+    text-decoration: none;
+    padding: 2px;
+    background: #10024c86;
 }
-.one{
-    width:140px;
-    color:#fff;
-    background-color:rgb(243, 187, 83);
+
+.no-style:visited{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 2px;
+    background: #44059b86;
 }
+
 

@@ -9,11 +9,11 @@ document.querySelector('[data-testid="currentDayOfTheWeek"]').innerHTML = 'Today
 
     let currentTime = new Date();
     let timeNow = currentTime.getUTCMilliseconds();
-    document.querySelector('[data-testid="currentUTCTime"]').innerHTML = 'Visit my Github Page';
+    document.querySelector('[data-testid="currentUTCTime"]').innerHTML = 'Time in UTC:  ' + timeNow; 
 
 })();
 
-(function loadTime(){
-    document.querySelector('[data-testid="githubURL"]').innerHTML = 'Time in UTC:  ' + timeNow;
-    document.querySelector('[data-testid="githubURL"]').href = '';
+(function loadURL(){
+    document.querySelector('[data-testid="githubURL"]').innerHTML ='Visit my Github Page'; 
+    document.querySelector('[data-testid="githubURL"]').setAttribute("href", "https://github.com/cynthiachinenye/hngx-task.git");
 })();
