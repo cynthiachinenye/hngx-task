@@ -11,11 +11,7 @@ document.querySelector('[data-testid="currentDayOfTheWeek"]').innerHTML = 'Today
 	const options = { timeZone: 'Africa/Lagos' }; 
 	const localTime = currentDate.toLocaleTimeString('en-US', options);
 	const utcTimeMilliseconds = currentDate.getTime(); 
-	document.querySelector('[data-testid="currentUTCTime"]').textContent = "Time in UTC: "+ localTime + ' ' + utcTimeMilliseconds
-
-    let currentTime = new Date();
-    let timeNow = currentTime. getUTC();
-    document.querySelector('[data-testid="currentUTCTime"]').innerHTML = 'Time in UTC:  ' + timeNow; 
+	document.querySelector('[data-testid="currentUTCTime"]').textContent = "Time in UTC: "+ localTime + ':' + utcTimeMilliseconds
 
 })();
 
